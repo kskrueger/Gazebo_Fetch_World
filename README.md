@@ -1,12 +1,14 @@
 # Gazebo_Fetch_World
 ## Extra packages
-```apt install ros-noetic-robot-controllers
+```
+apt install ros-noetic-robot-controllers
 apt install ros-noetic-rgbd-launch
 apt install ros-noetic-fetch-description
 ```
 
 ## Launch the world
-```catkin build
+```
+catkin build
 source devel/setup.bash
 ./start_world.sh
 ```
@@ -24,4 +26,6 @@ angular:
 ```
 
 ## View camera feed topic at:
-```rostopic echo /head_camera/rgb/image_raw```
+```
+rostopic echo /head_camera/rgb/image_raw
+```
